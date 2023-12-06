@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  height: 60px;
+  width: 1000px;
+  background-color: black;
+  margin: 0% auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+#your-feed {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0px;
+  display: block;
+}
+
+main {
+  height: 800px;
+  width: 1000px;
+  margin: 0% auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column1 {
+  width: 280px;
+  height: 800px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.column2 {
+  width: 700px;
+  height: 800px;
+}
+
+.profile-card {
+  width: 280px;
+  height: 500px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black;
+}
+
+section {
+  height: 250px;
+  width: 700px;
+  border-style: solid;
+  border-width: 5px;
+  margin: 0% auto;
+  margin-top: 100px;
+  padding: 40px 30px;
+}
+
+.column2 section {
+  height: 210px;
+  width: 700px;
+  border-style: solid;
+  border-width: 4px;
+  margin: 0% auto;
+  padding: 40px 30px;
+  margin-bottom: 20px;
+}
+
+.card-flex {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+}
+
+#card-flex2 {
+  justify-content: space-between;
+}
+
+.column1.card-flex {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+
+button {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 35px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 217, 102);
+  border-style: solid;
+  border-width: 4px;
+  box-shadow: 4px 4px 0 black;
+}
+
+h2 {
+  display: inline-block;
+  font-size: 50px;
+}
+
+.add-avatar {
+  display: block;
+}
+
+.column2 h2 {
+  display: inline-block;
+  font-size: 35px;
+}
+
+.card-flex>p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  display: inline;
+}
+
+.column2 section .filler-text {
+  display: block;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.filler-text-first {
+  margin-top: 80px;
+  display: block;
+}
+
+h3,
+.add-avatar {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.user-img {
+  margin: 90px 85px 0px 85px;
+}
