@@ -1,7 +1,7 @@
 var likeTrack = document.querySelector('#like-count');
 var likeTrack2 = document.querySelector('#like-count2');
 var likeTrack3 = document.querySelector('#like-count3');
-var likeTrack3 = document.querySelector('#like-count4');
+var likeTrack4 = document.querySelector('#like-count4');
 
 
 var count = [3,9,12,9];
@@ -23,5 +23,5 @@ function addLike3() {
 
 function addLike4() {
   count[0] ++;
-  likeTrack3.innerText = count[0] + " like(s)";
+  likeTrack4.innerText = count[0] + " like(s)";
 }
