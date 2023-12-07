@@ -1,27 +1,27 @@
 var likeTrack = document.querySelector('#like-count');
+var likeTrack2 = document.querySelector('#like-count2');
+var likeTrack3 = document.querySelector('#like-count3');
+var likeTrack3 = document.querySelector('#like-count4');
 
-var count = 3;
+
+var count = [3,9,12,9];
 
 function addLike() {
-  count ++;
-  likeTrack.innerText = count + " like(s)";
+  count[1] ++;
+  likeTrack.innerText = count[1] + " like(s)";
 }
-
-var likeTrack2 = document.querySelector('#like-count2');
-
-var count2 = 12;
 
 function addLike2() {
-  count2 ++;
-  likeTrack2.innerText = count2 + " like(s)";
+  count[2] ++;
+  likeTrack2.innerText = count[2] + " like(s)";
 }
 
-
-var likeTrack3 = document.querySelector('#like-count3');
-
-var count3 = 9;
-
 function addLike3() {
-  count3 ++;
-  likeTrack3.innerText = count3 + " like(s)";
+  count[3] ++;
+  likeTrack3.innerText = count[3] + " like(s)";
+}
+
+function addLike4() {
+  count[0] ++;
+  likeTrack3.innerText = count[0] + " like(s)";
 }
